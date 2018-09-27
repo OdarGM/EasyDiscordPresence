@@ -21,6 +21,8 @@ console.log(`Small Text: ${ST}`)
 console.log(`Small Image: ${SI}`)
 console.log(`Time: ${time}`)
 
+//TODO - COOLDOWN
+
 Discord.register(ID)
 
 const rpc = new Discord.Client({transport: "ipc"});
